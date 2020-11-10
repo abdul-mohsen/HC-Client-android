@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/page_1"
+        android:id="@+id/homeFragment"
         android:enabled="true"
         android:title="@string/home"
+        android:icon="@drawable/ic_home"
         />
     <item
-        android:id="@+id/page_2"
+        android:id="@+id/ordersFragment"
         android:enabled="true"
         android:title="@string/orders"/>
     <item
-        android:id="@+id/page_3"
+        android:id="@+id/offersFragment"
         android:enabled="true"
         android:title="@string/offers"/>
     <item
         android:id="@+id/page_4"
         android:enabled="true"
-        android:title="@string/more"/>
+        android:title="@string/more"
+        android:icon="@drawable/ic_more"/>
 </menu>

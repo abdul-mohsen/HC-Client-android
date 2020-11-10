@@ -3,11 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/bottomNavigationFragment">
-
+    app:startDestination="@id/homeFragment">
     <fragment
-        android:id="@+id/bottomNavigationFragment"
-        android:name="com.safcsp.foodstation.Client.BottomNavigationFragment"
-        android:label="BottomNavigationFragment"
-        tools:layout="@layout/bottom_navigation_fragment"/>
+        android:id="@+id/homeFragment"
+        android:name="com.safcsp.foodstation.Client.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/home_fragment"/>
+    <fragment
+        android:id="@+id/offersFragment"
+        android:name="com.safcsp.foodstation.Client.OffersFragment"
+        android:label="OffersFragment"
+        tools:layout="@layout/offers_fragment" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.safcsp.foodstation.Client.OrdersFragment"
+        android:label="OrdersFragment"
+        tools:layout="@layout/orders_fragment"/>
 </navigation>
