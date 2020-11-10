@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HC-Client-android</string>
+    <string name="home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="offers">Offers</string>
+    <string name="more">More</string>
 </resources>
